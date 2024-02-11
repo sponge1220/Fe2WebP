@@ -37,7 +37,8 @@ static void UpdateImageReferences(string directoryPath)
                        file.EndsWith(".js") || 
                        file.EndsWith(".jsx") || 
                        file.EndsWith(".tsx") || 
-                       file.EndsWith(".storyJson") || 
+                       file.EndsWith(".ts") || 
+                       file.EndsWith(".storyjson") || 
                        file.EndsWith(".scss")
         );
 

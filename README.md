@@ -14,15 +14,6 @@ This C# program automates the conversion of `.png` and `.jpg` images to `.webp` 
 - .NET Core 8 or higher
 - Magick.NET-Q8-AnyCPU NuGet package
 
-## Installation
-
-1. Ensure .NET Core 8 or higher is installed on your system.
-2. Clone this repository or download the source files.
-3. Navigate to the project directory and install the Magick.NET-Q8-AnyCPU package via NuGet:
-   ```
-   Install-Package Magick.NET-Q8-AnyCPU
-   ```
-
 ## Usage
 
 To use this program, follow the steps below:

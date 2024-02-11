@@ -48,7 +48,7 @@ The program will then start converting `.png` and `.jpg` images to `.webp` forma
 The program performs the following operations:
 - Scans the specified directory for `.png` and `.jpg` files.
 - Converts these images to `.webp` format using the Magick.NET library.
-- Searches for `.html`, `.js`, `.jsx`, and `.tsx` files in the directory and its subdirectories.
+- Searches for `.html`, `.js`, `.jsx`, `.scss`, `.storyJson` and `.tsx` files in the directory and its subdirectories.
 - Replaces all occurrences of `.png` and `.jpg` in these files with `.webp`.
 - Deletes the original `.png` and `.jpg` files to free up storage.
 

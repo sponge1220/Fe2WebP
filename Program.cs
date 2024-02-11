@@ -33,7 +33,13 @@ static void ConvertPngToWebpInDirectory(string directoryPath)
 static void UpdateImageReferences(string directoryPath)
 {
     var htmlAndJsFiles = Directory.EnumerateFiles(directoryPath, "*.*", SearchOption.AllDirectories)
-        .Where(file => file.EndsWith(".html") || file.EndsWith(".js") || file.EndsWith(".jsx") || file.EndsWith(".tsx") || file.EndsWith(".storyJson"));
+        .Where(file => file.EndsWith(".html") || 
+                       file.EndsWith(".js") || 
+                       file.EndsWith(".jsx") || 
+                       file.EndsWith(".tsx") || 
+                       file.EndsWith(".storyJson") || 
+                       file.EndsWith(".scss")
+        );
 
     foreach (var file in htmlAndJsFiles)
     {
